@@ -25,8 +25,8 @@ function HowItWorks() {
   ];
 
   return (
-    <section className="how-it-works" id="pricing">
-      <h2>How ProcureAgent Works</h2>
+    <section className="how-it-works" id="howitworks">
+      <h2>How ProcureAigent Works</h2>
       <div className="steps">
         {steps.map((step, index) => (
           <StepCard 

@@ -1,9 +1,16 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [],
+ /** @type {import('tailwindcss').Config} */
+const config = {
+  content: ["./src/**/*.{html,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        aigent: {
+          DEFAULT: '#5271FF',
+        },
+      },
+    },
   },
   plugins: [],
-}
+};
 
+export default config;

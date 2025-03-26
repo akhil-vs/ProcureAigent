@@ -57,7 +57,7 @@ function Footer() {
         ))}
       </div>
       <div className="copyright">
-        &copy; 2025 ProcureAgent. All rights reserved.
+        &copy; 2025 ProcureAigent. All rights reserved.
       </div>
     </footer>
   );

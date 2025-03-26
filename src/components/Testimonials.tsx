@@ -3,13 +3,13 @@ import TestimonialCard from "./TestimonialCard";
 function Testimonials() {
   const testimonialsList = [
     {
-      content: "ProcureAgent reduced our sourcing time by 67% and helped us discover suppliers we wouldn't have found through traditional channels. The AI recommendations have significantly improved our margins.",
+      content: "ProcureAigent reduced our sourcing time by 67% and helped us discover suppliers we wouldn't have found through traditional channels. The AI recommendations have significantly improved our margins.",
       author: "John Daniels",
       title: "Procurement Director, AutoTech Industries",
       initials: "JD"
     },
     {
-      content: "As a small supplier, ProcureAgent has been game-changing for our business. We've connected with major manufacturers that previously wouldn't have considered us, and our sales have grown 43% year-over-year.",
+      content: "As a small supplier, ProcureAigent has been game-changing for our business. We've connected with major manufacturers that previously wouldn't have considered us, and our sales have grown 43% year-over-year.",
       author: "Sarah Martinez",
       title: "CEO, Precision Components Co.",
       initials: "SM"

@@ -52,7 +52,7 @@ const Navbar = () => {
         <span></span>
       </div>
       <div className="logo">
-          <strong><Link to='/'><span className='green'>Procure</span><span>A</span><span className='black'>i</span><span>gent</span></Link></strong>
+          <strong><Link to='/'><span className='green'>Procure</span><span>Aigent</span></Link></strong>
       </div>
       </div>
       
@@ -60,7 +60,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         
         {/* Hamburger Menu for Mobile */}
-        <button
+        {/* <button
           onClick={toggleMenu}
           className="text-white lg:hidden focus:outline-none"
         >
@@ -77,7 +77,7 @@ const Navbar = () => {
               d="M4 6h16M4 12h16m-7 6h7"
             />
           </svg>
-        </button>
+        </button> */}
 
         {/* Nav Links */}
         <div
@@ -96,18 +96,18 @@ const Navbar = () => {
               <button onClick={() => scrollToSection('features')}>Features</button>
             </li>
             <li>
-              <button onClick={() => scrollToSection('pricing')}>Pricing</button>
+              <button onClick={() => scrollToSection('howitworks')}>How it works?</button>
             </li>
-            <li>
+            {/* <li>
               <button onClick={() => scrollToSection('aboutus')}>About Us</button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
     </nav>
     <div className="auth-buttons">
-      <Link to="/" className="btn btn-outline">Login</Link>
-      <Link to="/register" className="btn btn-outline">Sign Up</Link>
+      {/* <Link to="/" className="btn btn-outline">Login</Link> */}
+      <Link to="/register" className="text-white hover:text-white border border-aigent hover:bg-aigent focus:ring-4 focus:outline-none focus:ring-aigent text-base font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-aigent dark:text-white dark:hover:text-white dark:hover:bg-aigent dark:focus:ring-aigent">Sign Up</Link>
     </div>
     </header>
   );
