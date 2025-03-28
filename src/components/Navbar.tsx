@@ -106,7 +106,7 @@ const Navbar = () => {
       </div>
     </nav>
     <div className="auth-buttons">
-      {/* <Link to="/" className="btn btn-outline">Login</Link> */}
+      <Link to="/" className="text-white hover:text-white border border-aigent hover:bg-aigent focus:ring-4 focus:outline-none focus:ring-aigent text-base font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-aigent dark:text-white dark:hover:text-white dark:hover:bg-aigent dark:focus:ring-aigent">Login</Link>
       <Link to="/register" className="text-white hover:text-white border border-aigent hover:bg-aigent focus:ring-4 focus:outline-none focus:ring-aigent text-base font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-aigent dark:text-white dark:hover:text-white dark:hover:bg-aigent dark:focus:ring-aigent">Sign Up</Link>
     </div>
     </header>

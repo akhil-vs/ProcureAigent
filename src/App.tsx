@@ -6,6 +6,7 @@ import RegistrationPage from './pages/RegistrationPage';
 import ContactUs from './pages/ContactUs';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import CookiePolicy from './pages/CookiePolicy';
 import './App.css';
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
         {/* <Route path="/about" element={<AboutUs />} /> */}
         <Route path="register" element={<RegistrationPage />} />
-        {/* <Route path="/contact" element={<ContactUs />} /> */}
+        <Route path="/cookie" element={<CookiePolicy />} />
       </Routes>
       <Footer />
     </Router>

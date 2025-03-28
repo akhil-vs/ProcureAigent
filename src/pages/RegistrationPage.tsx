@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import procureai from "../images/procureai.jpg";
+import procureai from "../images/registrationcard.jpg";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
@@ -53,7 +53,7 @@ export default function RegistrationForm() {
     <div className="flex flex-col lg:flex-row min-h-screen bg-gray-100 p-4">
         <div className=" lg:w-1/2 flex-col justify-center items-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
             <img className="rounded-t-lg" src={procureai} alt="AI in Procurement" />
-            <div className="p-5">
+            <div className="p-5 d-flex align-items-center">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Unlock the Power of AI in Procurement!</h5>
                 <p className="text-center text-white mt-2">We’re excited to invite Manufacturers, Suppliers, and Buyers to join our innovative platform where cutting-edge AI meets streamlined procurement processes. By registering today, you'll gain access to smarter, faster, and more efficient ways to connect, collaborate, and drive growth in your business.</p><br></br>
                 <p className="text-center text-white mt-2">

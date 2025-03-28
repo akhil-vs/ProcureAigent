@@ -36,11 +36,11 @@ function Footer() {
     {
       title: "Legal",
       links: [
-        { name: "Terms of Service", url: "#" },
-        { name: "Privacy Policy", url: "#" },
-        { name: "Cookie Policy", url: "#" },
-        { name: "Security", url: "#" },
-        { name: "GDPR Compliance", url: "#" }
+        { name: "Terms of Service", url: "termsofservice" },
+        { name: "Privacy Policy", url: "privacy" },
+        { name: "Cookie Policy", url: "cookie" },
+        { name: "Security", url: "security" },
+        { name: "GDPR Compliance", url: "gdpr" }
       ]
     }
   ];

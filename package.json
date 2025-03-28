@@ -1,6 +1,7 @@
 {
   "name": "procure-aigent",
   "version": "0.1.0",
+  "home": "https://procureaigent.proaince.com/",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^4.1.3",

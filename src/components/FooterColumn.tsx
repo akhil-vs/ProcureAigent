@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function FooterColumn({ title, links }: { title: string; links: { name: string; url: string }[] }) {
   return (
     <div className="footer-column">
@@ -5,7 +7,7 @@ function FooterColumn({ title, links }: { title: string; links: { name: string; 
       <ul>
         {links.map((link, index) => (
           <li key={index}>
-            <a href={link.url}>{link.name}</a>
+            <Link to={link.url}>{link.name}</Link>
           </li>
         ))}
       </ul>

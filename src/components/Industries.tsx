@@ -29,6 +29,10 @@ function Industries() {
     {
       title: "Electronics",
       description: "Semiconductors, PCBs, components, and advanced electronic manufacturing supplies."
+    },
+    {
+      title: "Food & Beverages",
+      description: "To meet the procurement of machines, automation and tools for the industry."
     }
   ];
 
